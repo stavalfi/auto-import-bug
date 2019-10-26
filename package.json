@@ -1,0 +1,14 @@
+{
+  "name": "@ui/main",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "js/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.6.0",
+    "typescript": "3.4.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

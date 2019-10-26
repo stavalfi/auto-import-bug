@@ -1,0 +1,7 @@
+{
+  "name": "@ui/client",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ui/common": "1.0.0"
+  }
+}

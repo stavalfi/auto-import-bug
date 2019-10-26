@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["dom", "es6", "scripthost", "dom.iterable", "esnext"],
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "checkJs": false,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "baseUrl": "js",
+    "paths": {
+      "@client/*": ["client/src/*"],
+      "@common/*": ["common/src/*"]
+    }
+  },
+  "include": ["js/*/src"],
+  "exclude": ["js/*/dist","js/*/node_modules", "node_modules"]
+}
